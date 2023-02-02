@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-size: 100% 100%;
+}
+
+img{
+    border-radius:10px;
+    background-color: lightgray;
+    margin-right: 10px;
+}
+
+.asdf{
+    position: absolute;
+    margin-bottom: 100px;
+    border-radius: 150px;
+    text-align: center;
+    margin-left: 5px;
+    right: 2%;
+    top:4%;
+
+}
+marquee{
+    margin-top:300px;
+}
+
+@media (max-width:768px) {
+    img{
+        width: 60%;
+
+
+    }
+    .asdf{
+        height:300px;
+        width: 300px;
+        top:1%;
+        
+    }
+    marquee{
+        margin-top:650px;
+    }
+}
